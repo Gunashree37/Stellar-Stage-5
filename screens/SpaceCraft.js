@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, Alert, FlatList, Image, ImageBackground, StyleSheet, SafeAreaView, Platform, StatusBar } from 'react-native';
+import { Text, View, Alert, Image, ImageBackground, StyleSheet, SafeAreaView, Platform, StatusBar } from 'react-native';
 
 import axios from 'axios';
 
@@ -102,20 +102,8 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignContent: "center",
     },
-    contentCard: {
-        borderRadius: 5,
-        justifyContent: 'center',
-        alignItems: 'center',
-        margin: 20,
-        elevation: 10,
-        backgroundColor: 'white'
-    },
-    itemImage: {
-        width: "100%",
-        height: 200,
-        marginBottom: 15,
-        marginLeft: 10,
-        marginRight: 10,
-        borderRadius: 5
-    }
+   
+    
+    
+    
 })
